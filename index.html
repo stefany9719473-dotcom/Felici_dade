@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O que é felicidade?</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            /* Substitua 'fundo.jpg' pelo nome exato do arquivo da sua imagem salva */
+            background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('fundo.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: #333;
+        }
+
+        main {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            width: 100%;
+        }
+
+        .card {
+            background-color: rgba(255, 255, 255, 0.92);
+            backdrop-filter: blur(8px);
+            max-width: 650px;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            border: 3px solid #ff9800;
+        }
+
+        h1 {
+            color: #d84315;
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: #00796b;
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 25px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        p {
+            font-size: 1.15rem;
+            line-height: 1.7;
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+
+        .destaque {
+            background-color: #fff3e0;
+            padding: 15px 20px;
+            border-radius: 12px;
+            border-left: 5px solid #ff9800;
+            font-weight: 500;
+            margin-bottom: 0;
+        }
+
+        footer {
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            color: #ffffff;
+            text-align: center;
+            padding: 15px 10px;
+            font-size: 0.95rem;
+            letter-spacing: 0.5px;
+        }
+
+        @media (max-width: 600px) {
+            .card {
+                padding: 25px;
+            }
+            h1 {
+                font-size: 1.8rem;
+            }
+            p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <div class="card">
+            <h1>Felicidade não é perfeição</h1>
+            <h2>Desconstrução da pressão por perfeição e felicidade constante nas redes</h2>
+            
+            <p>
+                Nos acostumamos a confundir felicidade com a perfeição editada que vemos na tela. 
+                Mas ser feliz não significa estar sorrindo 24 horas por dia; significa aceitar todas 
+                as suas emoções sem culpa. Desconecte-se um pouco da comparação e reconecte-se com 
+                o que realmente faz sentido para você.
+            </p>
+            
+            <p class="destaque">
+                <strong>Para levar hoje:</strong> o seu valor não é medido por curtidas, e o seu ritmo é único.
+            </p>
+        </div>
+    </main>
+
+    <footer>
+        Desenvolvido por Stefany Emanuelly — 2º ano EMTI
+    </footer>
+
+</body>
+</html>
